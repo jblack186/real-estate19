@@ -8,3 +8,66 @@
   top: 0;
   z-index: -1;
 }
+
+.home-text {
+  color: white;
+  position: absolute;
+  top: 32vh;
+  left: 130px;
+  z-index: 100;
+  text-align: left;
+}
+
+.home-text h2 {
+  font-size: 4.2rem;
+  font-weight: bold;
+  letter-spacing: 18px;
+}
+
+.home-text p {
+  font-size: 2rem;
+  word-spacing: 8px;
+}
+
+
+.side-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #292929;
+  width: 80px;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.line {
+  margin-top: 100px;
+  width: 1px;
+  height: 200px;
+  border-left: 2px solid white;
+}
+
+.faIcons {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-evenly;
+
+}
+
+.font-border {
+  color: white;
+  border: solid 1px hsla(0,0%,100%,.5);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+}

@@ -34,9 +34,8 @@ const Navbar = () => {
       </div>
       <div className='menu-icon'>
         <FontAwesomeIcon style={{color: 'white', fontSize: '1.5rem'}} icon={faEllipsisH} />
-        <FontAwesomeIcon style={{color: 'white', fontSize: '1.5rem'}} icon={faEllipsisH} />
+        <p style={{color:'white'}}>MENU</p>
       </div>
-     
     </div>
   )
 }
