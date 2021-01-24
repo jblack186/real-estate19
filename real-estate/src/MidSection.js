@@ -3,11 +3,11 @@ import './MidSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import Agent1 from './agent001.jpg';
-import Agent2 from './agent002.jpg';
-import Meet from './meet.png';
-import Featured from './featured.png';
-import House2 from './house2.jpg';
+import Agent1 from './images/agent001.jpg';
+import Agent2 from './images/agent002.jpg';
+import Meet from './images/meet.png';
+import Featured from './images/featured.png';
+import House2 from './images/house2.jpg';
 
 
 const MidSection = () => {
