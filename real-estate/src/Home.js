@@ -5,7 +5,7 @@ import {faFacebookF, faGithubSquare, faLinkedin, faTwitter, faGithub} from '@for
 import './Home.css';
 import House from './house.jpg';
 import logo from './logo.png';
-
+import {Container, Row, Col} from 'react-bootstrap';
 
 const Home = () => {
   
@@ -32,7 +32,25 @@ const Home = () => {
           </a>        
       </div>
       </div>
-      <div></div>
+      <div className='top-bottom-bar'>
+        <div className='top-bottom-bar-flex'>
+        <div className='bottom-bar-text'>
+          <p>Property Types <br /> CONDOS AND HOMES</p>
+        </div>
+        <div className='bottom-line'></div>
+        <div className='bottom-bar-text'>
+          <p>Reliability<br /> HASSLE FREE</p>
+        </div>
+        <div className='bottom-line'></div>
+        <div className='bottom-bar-text'>
+          <p>SERVICE<br /> Client Focused</p>
+        </div>
+        <div className='bottom-line'></div>
+        <div className='bottom-bar-text'>
+          <p>Our Team<br /> BEST IN TOWN </p>
+        </div>
+      </div>
+      </div>
     </div>
   )
 }
