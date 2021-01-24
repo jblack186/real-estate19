@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faTwitter, faFacebookF, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
-import House from './house.jpg';
+import House from './images/house.jpg';
 
 const Home = () => {
   

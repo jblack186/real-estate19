@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faEllipsisH } from '@fortawesome/free-solid-svg-icons'
-import logo from './logo.png';
-import logo2 from './logo2.png';
+import logo from './images/logo.png';
+import logo2 from './images/logo2.png';
 import './Navbar.css';
 
 const Navbar = () => {

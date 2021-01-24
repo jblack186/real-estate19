@@ -1,10 +1,10 @@
 .who-container {
   height: 700px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("./kithcen.jpg");
+  background: url("./images/kithcen.jpg");
   background-size: cover;
   filter: grayscale(100%);
   text-align: left;

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Who.css';
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import Agent from './agent.jpg';
-import Piece from './logopiece.png';
+import Agent from './images/agent.jpg';
+import Piece from './images/logopiece.png';
 
 const Who = () => {
   
