@@ -1,5 +1,5 @@
 .top-mid-container {
-  height: 1400px;
+  height: 2000px;
   width: 100vw;
   position: relative;
 }
@@ -60,7 +60,7 @@
   top: 50%;
   left: 50%;
   margin-left: -35%;
-  margin-top: -145px;
+  margin-top: -500px;
   height: 380px;
   width: 70%;
   background-color: #292929;
@@ -69,6 +69,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 0 1px 2px 2px black
 }
 
 .team-box img {
@@ -92,7 +93,7 @@
   height: 220px;
   width: 60%;
   background-color: #1c1b3f;
-  bottom: 100px;
+  bottom: 750px;
   left: 50px;
   color: white;
   display: flex;
@@ -101,11 +102,13 @@
   align-items: center;
   font-size: .9rem;
   text-align: left;
+  box-shadow: 0 1px 2px 2px black
+
 }
 
 .comment-icon {
   position: absolute;
-  bottom: 300px;
+  bottom: 950px;
   left: 50px;
   z-index: 999999;
   transform: scaleX(-1);

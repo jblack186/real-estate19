@@ -86,6 +86,7 @@
   background-color: #292929;
   position: absolute;
   top: 92vh;
+  border-bottom: 2px solid black;
 
 }
 
@@ -124,4 +125,5 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 2px solid black;
 }
