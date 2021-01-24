@@ -2,10 +2,7 @@ import React from 'react';
 import './MidSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
-import Wall from './wall.jpg';
-import Building from './building.jpg';
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import Agent from './agent.jpg';
 import Agent1 from './agent001.jpg';
 import Agent2 from './agent002.jpg';
 import Meet from './meet.png';

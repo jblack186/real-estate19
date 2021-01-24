@@ -1,11 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faFacebookF, faGithubSquare, faLinkedin, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faTwitter, faFacebookF, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
 import House from './house.jpg';
-import logo from './logo.png';
-import {Container, Row, Col} from 'react-bootstrap';
 
 const Home = () => {
   
@@ -21,15 +18,15 @@ const Home = () => {
       <div className='side-bar'>
         <div className='line'></div>
         <div className='faIcons'>
-          <a className='font-border'>
+          <p className='font-border'>
             <FontAwesomeIcon className='footer-icon' icon={faFacebookF}/>
-          </a>
-          <a className='font-border'>
+          </p>
+          <p className='font-border'>
             <FontAwesomeIcon className='footer-icon' icon={faLinkedin}/>
-          </a>
-          <a className='font-border'>
+          </p>
+          <p className='font-border'>
             <FontAwesomeIcon className='footer-icon' icon={faTwitter}/>
-          </a>        
+          </p>        
       </div>
       </div>
       <div className='top-bottom-bar'>

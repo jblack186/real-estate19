@@ -1,10 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faFacebookF, faGithubSquare, faLinkedin, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
 import './Who.css';
-import House from './house.jpg';
-import logo from './logo.png';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import Agent from './agent.jpg';
 import Piece from './logopiece.png';
