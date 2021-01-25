@@ -23,8 +23,8 @@ const BottomSection = () => {
   return (
     <section className='bottom-container'>
       <Container fluid={true}>
-        <Row className='rows'>
-          <Col className='columns' sm>
+        <Row className='rows' >
+          <Col className='columns' lg>
             <div className='bottom-properties one'>
             <div className='area-holder'>
             <img className='mid-agent' src={Area1} alt='realestate agent' />
@@ -36,7 +36,7 @@ const BottomSection = () => {
             </div>
             </div>
           </Col>
-          <Col className='columns' sm>
+          <Col className='columns' lg>
             <div className='bottom-properties two'>
               <div className='area-holder'>
             <img className='mid-agent' src={Area3} alt='realestate agent' />
@@ -48,7 +48,7 @@ const BottomSection = () => {
             </div>
             </div>
           </Col>
-          <Col className='columns' sm>
+          <Col className='columns' lg>
             <div className='bottom-properties three'>
               <div className='area-holder'>
             <img className='mid-agent' src={Area5} alt='realestate agent' />
@@ -62,35 +62,35 @@ const BottomSection = () => {
           </Col>
         </Row>
         <Row>
-    <Col sm>
+    <Col lg>
     <div className='bottom-area-holder side'>
             <img className='mid-agent' src={Area7} alt='realestate agent' />
             <p>ATLANTA</p>
     </div>
       
     </Col>
-    <Col sm>
+    <Col lg>
     <div className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area8} alt='realestate agent' />
             <p>ATLANTA</p>
     </div>
      
     </Col>
-    <Col sm>
+    <Col lg>
       <div className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area9} alt='realestate agent' />
             <p>ATLANTA</p>
     </div>
 
     </Col>
-    <Col sm>
+    <Col lg>
       <div className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area10} alt='realestate agent' />
             <p>ATLANTA</p>
     </div>
 
     </Col>
-    <Col sm>
+    <Col lg>
       <div className='bottom-area-holder side'>
             <img className='mid-agent' src={Area11} alt='realestate agent' />
             <p>ATLANTA</p>
@@ -100,12 +100,18 @@ const BottomSection = () => {
 
   </Row>
   <section className='mission-container'>
+  <div className="mission-logo-container-one" >
+     
+     <img className='mission-logo' src={Mission} alt='mission logo' />
+  
+ </div>
+
   <p className='mission-text'>We are a full service Real Estate Team serving the Atlanta Metro area. We Specialize in Cobb, Paulding, Atlanta and surrounding areas. Buying, Selling, and Staging are just a few of our services.</p>
 
   <div className='mission-flex'>
   <img className='mission-background' src={MissionBack} alt='mission logo' />
   <div className='mission'>
-    <div className="mission-logo-container" >
+    <div className="mission-logo-container-two" >
      
         <img className='mission-logo' src={Mission} alt='mission logo' />
      
@@ -129,7 +135,7 @@ const BottomSection = () => {
 
             <input placeholder='Email' type="email" id="defaultFormCardEmailEx" className="form-control" />
         </div>
-        <textarea id='defaultFormCardTextlEx' />
+        <textarea placeholder='Type message here' id='defaultFormCardTextlEx' />
 
         <div className="text-center py-4 mt-3">
         <Button  variant="outline-primary">Send</Button>

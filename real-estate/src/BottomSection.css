@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .area-holder {
@@ -15,6 +16,7 @@
   object-fit: cover;
   margin-bottom: 20px;
   filter: grayscale(100%);
+  width: 100%;
 
 }
 
@@ -23,6 +25,8 @@ height: 550px;
 object-fit: cover;
 margin-bottom: 20px;
 filter: grayscale(100%);
+width: 100%;
+
 }
 
 .bottom-properties.three img{
@@ -30,8 +34,37 @@ filter: grayscale(100%);
   object-fit: cover;
   margin-bottom: 20px;
   filter: grayscale(100%);
-
+  width: 100%;
 }
+
+@media only screen and (max-width: 968px) {
+  .bottom-properties.one img {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .bottom-properties.two img {
+    height: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 968px) {
+  .bottom-properties.three img {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .bottom-area-holder.side img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
 
 .columns {
   align-self: flex-end;
@@ -42,8 +75,10 @@ filter: grayscale(100%);
 
 .bottom-area-holder.mid img{
   height: 250px;
-
+  width: 100%;
 }
+
+
 
 
 .bottom-properties p {
@@ -83,20 +118,41 @@ filter: grayscale(100%);
   justify-content: center;
   align-items: center;
   position: relative;
-
+  background: black;
 }
+
+@media only screen and (max-width: 968px) {
+  .mission-container {
+    flex-direction: column;
+    height: 500px;
+    margin-bottom: 30px;
+
+  }
+}
+
+
 
 .mission-text {
   font-size: 1.2rem;
   position: absolute;
-  width: 40%;
+  height: 200px;
   top: 40%;
   text-align: right;
   right: 10%;
   color: white;
   z-index: 1000;
-
+  width: 40%;
 }
+
+@media only screen and (max-width: 968px) {
+  .mission-text {
+    position: static;
+    text-align: center;
+    width: 90%;
+    padding-top: 20px;
+  }
+}
+
 
 .mission-flex {
   width: 90%;
@@ -105,6 +161,14 @@ filter: grayscale(100%);
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 968px) {
+  .mission-flex .mission-background {
+    display: none;
+  }
+}
+
+
 
 
 .mission-background {
@@ -117,7 +181,7 @@ filter: grayscale(100%);
 
 }
 
-.mission-logo-container {
+.mission-logo-container-two {
   position: absolute;
   height: 200px;
   width: 30%;
@@ -128,11 +192,48 @@ filter: grayscale(100%);
 
 }
 
+@media only screen and (max-width: 968px) {
+  .mission-logo-container-two {
+    position: static;
+    width: 30%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  
+  }
+}
+
+@media only screen and (min-width: 968px) {
+  .mission-logo-container-one {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .mission-logo-container-two {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 968px) {
+  .mission-logo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
+
 .form-container {
   background: url('./images/form.png');
   width: 98%;
   height: 500px;
 }
+
+
 
 form {
   display: flex;
@@ -142,6 +243,14 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 968px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 form p {
   color: #bba462;
@@ -157,11 +266,25 @@ form p {
 
 }
 
+@media only screen and (max-width: 968px) {
+  .phone-email {
+    justify-content: center;
+  }
+}
+
+
 #defaultFormCardNameEx {
   width: 700px;
   height: 50px;
 
 }
+
+@media only screen and (max-width: 968px) {
+  #defaultFormCardNameEx {
+    width: 300px;
+  }
+}
+
 
 
 #defaultFormCardEmailEx {
@@ -170,12 +293,24 @@ form p {
 
 }
 
+@media only screen and (max-width: 968px) {
+  #defaultFormCardEmailEx {
+    width: 200px;
+  }
+}
+
+
 #defaultFormCardTextlEx {
   margin-top: 15px;
   width: 700px;
   height: 150px;
 }
 
+@media only screen and (max-width: 968px) {
+  #defaultFormCardTextlEx {
+    width: 400px;
+  }
+}
 
 
 
