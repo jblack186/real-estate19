@@ -8,7 +8,9 @@ import Agent2 from './images/agent002.jpg';
 import Meet from './images/meet.png';
 import Featured from './images/featured.png';
 import House2 from './images/house2.jpg';
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import Carousels from './Carousels';
 
 const MidSection = () => {
   
@@ -18,29 +20,38 @@ const MidSection = () => {
         <div className='top-midSection-container'>
         <div className='mid-agents-container'>
           <div className='mid-agents'>
+          <Carousel interval={2000} infiniteLoop={true} showStatus={false} showThumbs={false} autoPlay>
+            <div>
             <img className='mid-agent' src={Agent1} alt='realestate agent' />
-            <img className='mid-agent' src={Agent2} alt='realestate agent' />
+            </div>
+            <div>
+              <img className='mid-agent' src={Agent2} alt='realestate agent' />
+            </div>
+          </Carousel>
           </div>
         </div>
         </div>
         <div className='bottom-midSection-container'>
+        <div className='team-box'>
+
+<img className='meet' src={Meet} alt='meet us' />
+<div className='team-box-text'>
+  <p>In today’s real estate market, selling and buying a home requires advanced knowledge of online as well as traditional marketing platforms. Just having a real estate license and listing a home on the MLS is not enough – you want an agent who has their ear to the ground when it comes to market trends, a deep understanding of the
+  </p>
+
+</div>
+<Button size="lg" variant="outline-light">READ MORE</Button>
+</div>
+
         </div>
 
-      <div className='team-box'>
-
-      <img className='meet' src={Meet} alt='meet us' />
-      <div className='team-box-text'>
-        <p>In today’s real estate market, selling and buying a home requires advanced knowledge of online as well as traditional marketing platforms. Just having a real estate license and listing a home on the MLS is not enough – you want an agent who has their ear to the ground when it comes to market trends, a deep understanding of the
-        </p>
-
-      </div>
-      <Button size="lg" variant="outline-light">READ MORE</Button>
-      </div>
       <div className='comment-icon'>
       <FontAwesomeIcon style={{color: '#bba462', fontSize: '3rem'}} icon={faQuoteRight} />
     </div>
         <div className='comments'>
-        <p>Brandon’s commitment, professionalism, knowledge, and loyalty has surpassed all of my expectations. He builds personal relationships with all of his clients and keeps their wants and needs an upmost priority. His honesty and persistence is what I appreciate the most, as you can put 100% of your trust in him as a realtor. I could not be happier with my experience with Brandon and will definitely keep him as my #1 in future endeavors!</p>
+          <div className='carousel-container'>
+          <Carousels />
+          </div>
         <Button size="lg" variant="outline-primary">READ MORE</Button>
       </div>
 

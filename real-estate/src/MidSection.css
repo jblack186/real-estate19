@@ -1,8 +1,14 @@
 .top-mid-container {
-  height: 2000px;
   width: 100%;
   position: relative;
 }
+
+@media only screen and (max-width: 968px) {
+  .top-mid-container {
+   position: static;
+  }
+}
+
 
 .top-midSection-container {
   height: 700px;
@@ -37,6 +43,7 @@
 
 }
 
+
 .mid-agents img {
   width: 300px;
   height: 370px;
@@ -51,7 +58,9 @@
   background: url('./images/building.jpg');
   background-position: bottom right;
   filter: grayscale(100%);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -60,7 +69,7 @@
   top: 50%;
   left: 50%;
   margin-left: -35%;
-  margin-top: -500px;
+  margin-top: -380px;
   height: 380px;
   width: 70%;
   background-color: #292929;
@@ -69,8 +78,30 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: 0 1px 2px 2px black
+  box-shadow: 0 1px 2px 2px black;
+  z-index: 999999999999;
+
 }
+
+@media only screen and (max-width: 968px) {
+  .team-box {
+    position: static;
+    z-index: 99999999999999999;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0x;
+    height: 380px;
+    width: 70%;
+    background-color: #292929;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
 
 .team-box img {
   width: 300px;
@@ -87,13 +118,14 @@
 
 }
 
+.carousel-container .carousel .slide{ background-color: #1c1b3f; }
 
 .comments {
   position: absolute;
   height: 220px;
   width: 60%;
   background-color: #1c1b3f;
-  bottom: 750px;
+  bottom: 550px;
   left: 50px;
   color: white;
   display: flex;
@@ -105,18 +137,33 @@
   box-shadow: 0 1px 2px 2px black
 
 }
+@media only screen and (max-width: 968px) {
+  .comments {
+   display: none;
+  }
+}
+
 
 .comment-icon {
   position: absolute;
-  bottom: 950px;
-  left: 50px;
+  bottom: 750px;
+  left: 15px;
   z-index: 999999;
   transform: scaleX(-1);
 }
 
+@media only screen and (max-width: 968px) {
+  .comment-icon {
+   display: none;
+  }
+}
+
+
 .comments p{
   width: 80%;
   margin-bottom: 20px;
+  padding-left: 20px;
+  text-align: left;
 }
 
 .btn-outline-primary.btn-lg {
@@ -134,7 +181,7 @@
   display: flex;
   align-items: center;
   text-align: left;
-  height: 900px;
+  margin-top: 150px;
 }
 
 .featured-container p{
@@ -145,3 +192,4 @@
 .featured-logo  {
   width: 200px;
 }
+

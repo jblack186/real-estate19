@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MidSection from './MidSection';
 import BottomSection from './BottomSection';
 import Footer from './Footer';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 function App() {
