@@ -5,6 +5,7 @@ import Who from './Who';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MidSection from './MidSection';
 import BottomSection from './BottomSection';
+import Footer from './Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Who />
       <MidSection />
       <BottomSection />
+      <Footer />
     </div>
   );
 }
