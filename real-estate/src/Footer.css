@@ -20,7 +20,7 @@
 
 .footer-logos img{
   width: 200px;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
   padding-bottom: 20px;
   object-fit: contain;
 }
@@ -48,4 +48,13 @@
 
 .copyright p {
   color: white;
+  font-size: .9rem;
+
+}
+
+.btn.btn-outline-primary {
+  width: 150px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0;
 }

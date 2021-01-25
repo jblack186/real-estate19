@@ -1,6 +1,6 @@
 import React from 'react';
 import './BottomSection.css';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import Area1 from './images/area1.jpg';
 import Area2 from './images/area2.jpg';
 import Area3 from './images/area3.jpg';
@@ -132,10 +132,7 @@ const BottomSection = () => {
         <textarea id='defaultFormCardTextlEx' />
 
         <div className="text-center py-4 mt-3">
-          <MDBBtn className="btn btn-outline-purple" type="submit">
-            Send
-            <MDBIcon far icon="paper-plane" className="ml-2" />
-          </MDBBtn>
+        <Button  variant="outline-primary">Send</Button>
         </div>
       </form>
     </MDBCol>
