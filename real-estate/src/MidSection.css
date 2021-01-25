@@ -184,6 +184,13 @@
   margin-top: 150px;
 }
 
+@media only screen and (max-width: 968px) {
+  .featured-container {
+    margin-top: 30px;
+  }
+}
+
+
 .featured-container p{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -193,3 +200,8 @@
   width: 200px;
 }
 
+@media only screen and (max-width: 968px) {
+  .featured-container button {
+    margin-bottom: 30px;
+  }
+}
