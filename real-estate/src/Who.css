@@ -8,8 +8,7 @@
   background-size: cover;
   filter: grayscale(100%);
   text-align: left;
-  margin-top: 100px;
-
+  margin-top: 150px;
 }
 
 @media only screen and (max-width: 968px) {

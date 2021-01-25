@@ -9,13 +9,7 @@ const Home = () => {
 
   return (
     <div className='home-container'>
-      <img src={House} alt='house' />
-      <div className='home-text'>
-        <h2>SAVANAH</h2>
-        <p>HUMBLE ABODES</p>
-
-      </div>
-      <div className='side-bar'>
+            <div className='side-bar'>
         <div className='line'></div>
         <div className='faIcons'>
           <p className='font-border'>
@@ -28,6 +22,13 @@ const Home = () => {
             <FontAwesomeIcon className='footer-icon' icon={faTwitter}/>
           </p>        
       </div>
+      </div>
+
+      <img className='house' src={House} alt='house' />
+      <div className='home-text'>
+        <h2>SAVANAH</h2>
+        <p>HUMBLE ABODES</p>
+
       </div>
       <div className='top-bottom-bar'>
         <div className='top-bottom-bar-flex'>
