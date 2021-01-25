@@ -13,8 +13,9 @@ import Area9 from './images/area9.jpg';
 import Area10 from './images/area10.jpg';
 import Area11 from './images/area11.jpg';
 import Mission from './images/mission.png';
-import MissionBack from './images/mission-back.jpg';
+import MissionBack from './images/mission-back2.png';
 
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
 
 const BottomSection = () => {
   
@@ -99,6 +100,8 @@ const BottomSection = () => {
 
   </Row>
   <section className='mission-container'>
+  <p className='mission-text'>We are a full service Real Estate Team serving the Atlanta Metro area. We Specialize in Cobb, Paulding, Atlanta and surrounding areas. Buying, Selling, and Staging are just a few of our services.</p>
+
   <div className='mission-flex'>
   <img className='mission-background' src={MissionBack} alt='mission logo' />
   <div className='mission'>
@@ -111,6 +114,34 @@ const BottomSection = () => {
   </div>
   </section>
     </Container>
+    <div className='form-container'>
+    <MDBContainer>
+  <MDBRow>
+    <MDBCol md="12">
+      <form>
+        <p>CONTACT US!</p>
+        <div>
+          <input placeholder='Name' type="text" id="defaultFormCardNameEx" className="form-control" />
+        </div>
+        <br />
+        <div className='phone-email'>
+          <input placeholder='Phone' type="email" id="defaultFormCardEmailEx" className="form-control" />
+
+            <input placeholder='Email' type="email" id="defaultFormCardEmailEx" className="form-control" />
+        </div>
+        <textarea id='defaultFormCardTextlEx' />
+
+        <div className="text-center py-4 mt-3">
+          <MDBBtn className="btn btn-outline-purple" type="submit">
+            Send
+            <MDBIcon far icon="paper-plane" className="ml-2" />
+          </MDBBtn>
+        </div>
+      </form>
+    </MDBCol>
+  </MDBRow>
+</MDBContainer>
+</div>
    </section>
   )
 }
