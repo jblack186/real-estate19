@@ -7,6 +7,8 @@ import './Navbar.css';
 import { useWindowSize } from "@react-hook/window-size/throttled";
 import { useWindowSize as useWindowSizeD } from "@react-hook/window-size";
 import useScrollPosition from "@react-hook/window-scroll";
+import {Link} from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -14,6 +16,9 @@ const Navbar = () => {
   const [widthD, heightD] = useWindowSizeD();
   const scrollY = useScrollPosition(60 /*frames per second*/);
 
+  let history = useHistory();
+  console.log(history.location.pathname)
+  
 
   return (
     <div className={scrollY <= 100 ? 'nav-container' : 'nav-container-slide'}>
@@ -21,15 +26,15 @@ const Navbar = () => {
         <img src={logo} alt='logo' />
       </div>
       <ul className='nav-items'>
-        <li>
+      <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/'><li>
           HOME
-        </li>
-        <li>
-          ABOUT US
-        </li>
-        <li>
+        </li></Link>
+        <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/about'><li>
+        ABOUT US
+        </li></Link>
+        <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/contact'><li>
           CONTACT
-        </li>
+        </li></Link>
       </ul>
       <div className='logoTwo'>
         <img src={logo2} alt='logoTwo' />
