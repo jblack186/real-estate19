@@ -19,6 +19,14 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .who-container {
+    margin-top: 200px;
+
+  }
+}
+
+
 
 .who-container h3 {
   padding-bottom: 20px;

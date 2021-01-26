@@ -46,7 +46,16 @@
   object-fit: contain;
   margin-left: 50px;
   z-index: 999999;
+  
 }
+
+@media only screen and (max-width: 700px) {
+  .nav-container img {
+    margin-left: 20px;
+  }
+
+}
+
  
 .nav-container-slide .logo {
   background-color: #292929;
@@ -60,10 +69,20 @@
 }
 
 
+
 .nav-container-slide img{
   width: 8em;
   
 }
+
+@media only screen and (max-width: 700px) {
+  .nav-container .logo {
+    width: 100px;
+      }
+
+}
+
+
 
 
 .nav-items {
@@ -112,7 +131,6 @@
 @media only screen and (max-width: 1128px) {
   .nav-container ul li{
     font-size: 1rem;
-
 
   }
 }
