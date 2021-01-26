@@ -45,7 +45,7 @@ const BottomSection = () => {
             <div className='bottom-properties one'>
             <motion.div 
           initial={{y: 900}}
-          animate={{y: lastYPos >= 2200 ? 0 : null}}
+          animate={{y: lastYPos >= 2350 ? 0 : null}}
           transition={{duration: 1}}      
             
             className='area-holder'>
@@ -54,10 +54,11 @@ const BottomSection = () => {
             </motion.div>
             <motion.div 
            initial={{y: 900}}
-           animate={{y: lastYPos >= 2200 ? 0 : null}}
-           transition={{duration: 1.2}}      
+           animate={{y: lastYPos >= 3000 ? 0 : null}}
+           transition={{duration: 1.5}}      
             
             className='area-holder'>
+              
             <img className='mid-agent' src={Area2} alt='realestate agent' />
             <p>ATLANTA</p>
             </motion.div>
@@ -67,8 +68,8 @@ const BottomSection = () => {
             <div className='bottom-properties two'>
               <motion.div 
            initial={{y: 900}}
-           animate={{y: lastYPos >= 2200 ? 0 : null}}
-           transition={{duration: 1.4}}      
+           animate={{y: lastYPos >= 2350 ? 0 : null}}
+           transition={{duration: 1.7}}      
               
               className='area-holder'>
             <img className='mid-agent' src={Area3} alt='realestate agent' />
@@ -76,8 +77,8 @@ const BottomSection = () => {
             </motion.div>
             <motion.div 
            initial={{y: 900}}
-           animate={{y: lastYPos >= 2400 ? 0 : null}}
-           transition={{duration: 1}}      
+           animate={{y: lastYPos >= 3000 ? 0 : null}}
+           transition={{duration: 1.7}}      
             
             className='area-holder'>
             <img className='mid-agent' src={Area4} alt='realestate agent' />
@@ -89,8 +90,8 @@ const BottomSection = () => {
             <div className='bottom-properties three'>
               <motion.div 
            initial={{y: 900}}
-           animate={{y: lastYPos >= 2400 ? 0 : null}}
-           transition={{duration: 1.2}}      
+           animate={{y: lastYPos >= 2350 ? 0 : null}}
+           transition={{duration: 1.9}}      
               
               className='area-holder'>
             <img className='mid-agent' src={Area5} alt='realestate agent' />
@@ -98,8 +99,8 @@ const BottomSection = () => {
             </motion.div>
             <motion.div 
            initial={{y: 900}}
-           animate={{y: lastYPos >= 2400 ? 0 : null}}
-           transition={{duration: 1.4}}      
+           animate={{y: lastYPos >= 3000 ? 0 : null}}
+           transition={{duration: 1.9}}      
             
             className='area-holder'>
             <img className='mid-agent' src={Area6} alt='realestate agent' />
@@ -110,38 +111,63 @@ const BottomSection = () => {
         </Row>
         <Row>
     <Col lg>
-    <div className='bottom-area-holder side'>
+    <motion.div 
+               initial={{opacity: 0}}
+               animate={{opacity: lastYPos >= 4200 ? 1 : 0}}
+               transition={{duration: 1.5}}      
+    
+    className='bottom-area-holder side'>
             <img className='mid-agent' src={Area7} alt='realestate agent' />
             <p>ATLANTA</p>
-    </div>
+    </motion.div>
       
     </Col>
     <Col lg>
-    <div className='bottom-area-holder mid'>
+    <motion.div 
+            initial={{opacity: 0}}
+            animate={{opacity: lastYPos >= 4200 ? 1 : 0}}
+            transition={{duration: 1.5}}      
+    
+    className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area8} alt='realestate agent' />
             <p>ATLANTA</p>
-    </div>
+    </motion.div>
      
     </Col>
     <Col lg>
-      <div className='bottom-area-holder mid'>
+      <motion.div 
+              initial={{opacity: 0}}
+              animate={{opacity: lastYPos >= 4200 ? 1 : 0}}
+              transition={{duration: 1.5}}      
+      
+      className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area9} alt='realestate agent' />
             <p>ATLANTA</p>
-    </div>
+    </motion.div>
 
     </Col>
     <Col lg>
-      <div className='bottom-area-holder mid'>
+      <motion.div 
+             initial={{opacity: 0}}
+             animate={{opacity: lastYPos >= 4200 ? 1 : 0}}
+             transition={{duration: 1.5}}      
+      
+      className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area10} alt='realestate agent' />
             <p>ATLANTA</p>
-    </div>
+    </motion.div>
 
     </Col>
     <Col lg>
-      <div className='bottom-area-holder side'>
+      <motion.div 
+             initial={{opacity: 0}}
+             animate={{opacity: lastYPos >= 4100 ? 1 : 0}}
+             transition={{duration: 1.5}}      
+      
+      className='bottom-area-holder side'>
             <img className='mid-agent' src={Area11} alt='realestate agent' />
             <p>ATLANTA</p>
-    </div>
+    </motion.div>
 
     </Col>
 
@@ -162,7 +188,7 @@ const BottomSection = () => {
      
         <motion.img 
         initial={{x: -900}}
-           animate={{x: lastYPos >= 3200 ? 0 : null}}
+           animate={{x: lastYPos >= 4500 ? 0 : null}}
            transition={{duration: 1}}  
       
         className='mission-logo' src={Mission} alt='mission logo' />
