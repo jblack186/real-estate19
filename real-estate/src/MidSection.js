@@ -75,6 +75,7 @@ const MidSection = () => {
         </div>
 
       <motion.div 
+      className='comment-container'
            initial={{x: -900}}
            animate={{x: lastYPos >= 2000 ? 0 : null}}
            transition={{duration: 1}}  

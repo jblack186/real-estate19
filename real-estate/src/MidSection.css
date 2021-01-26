@@ -120,6 +120,20 @@
 
 .carousel-container .carousel .slide{ background-color: #1c1b3f; }
 
+@media only screen and (max-width: 968px) {
+  .carousel-container .carousel .slide {
+   display: none;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .comment-container {
+   display: none;
+  }
+}
+
+
+
 .comments {
   position: absolute;
   height: 220px;
@@ -139,7 +153,7 @@
 }
 @media only screen and (max-width: 968px) {
   .comments {
-   display: none;
+   z-index: -1000;
   }
 }
 
