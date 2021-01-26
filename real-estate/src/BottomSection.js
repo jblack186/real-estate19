@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './BottomSection.css';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import Area1 from './images/area1.jpg';
@@ -14,11 +14,28 @@ import Area10 from './images/area10.jpg';
 import Area11 from './images/area11.jpg';
 import Mission from './images/mission.png';
 import MissionBack from './images/mission-back2.png';
+import { motion } from "framer-motion"
 
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
 
 const BottomSection = () => {
-  
+  const [lastYPos, setLastYPos] = useState(0);
+  const [shouldShowActions, setShouldShowActions] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      const yPos = window.scrollY;
+      setLastYPos(yPos);
+    }
+
+    window.addEventListener("scroll", handleScroll, false);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll, false);
+    };
+
+  }, [lastYPos]);
+
 
   return (
     <section className='bottom-container'>
@@ -26,38 +43,68 @@ const BottomSection = () => {
         <Row className='rows' >
           <Col className='columns' lg>
             <div className='bottom-properties one'>
-            <div className='area-holder'>
+            <motion.div 
+          initial={{y: 900}}
+          animate={{y: lastYPos >= 2200 ? 0 : null}}
+          transition={{duration: 1}}      
+            
+            className='area-holder'>
             <img className='mid-agent' src={Area1} alt='realestate agent' />
             <p>ATLANTA</p>
-            </div>
-            <div className='area-holder'>
+            </motion.div>
+            <motion.div 
+           initial={{y: 900}}
+           animate={{y: lastYPos >= 2200 ? 0 : null}}
+           transition={{duration: 1.2}}      
+            
+            className='area-holder'>
             <img className='mid-agent' src={Area2} alt='realestate agent' />
             <p>ATLANTA</p>
-            </div>
+            </motion.div>
             </div>
           </Col>
           <Col className='columns' lg>
             <div className='bottom-properties two'>
-              <div className='area-holder'>
+              <motion.div 
+           initial={{y: 900}}
+           animate={{y: lastYPos >= 2200 ? 0 : null}}
+           transition={{duration: 1.4}}      
+              
+              className='area-holder'>
             <img className='mid-agent' src={Area3} alt='realestate agent' />
             <p>ATLANTA</p>
-            </div>
-            <div className='area-holder'>
+            </motion.div>
+            <motion.div 
+           initial={{y: 900}}
+           animate={{y: lastYPos >= 2400 ? 0 : null}}
+           transition={{duration: 1}}      
+            
+            className='area-holder'>
             <img className='mid-agent' src={Area4} alt='realestate agent' />
             <p>ATLANTA</p>
-            </div>
+            </motion.div>
             </div>
           </Col>
           <Col className='columns' lg>
             <div className='bottom-properties three'>
-              <div className='area-holder'>
+              <motion.div 
+           initial={{y: 900}}
+           animate={{y: lastYPos >= 2400 ? 0 : null}}
+           transition={{duration: 1.2}}      
+              
+              className='area-holder'>
             <img className='mid-agent' src={Area5} alt='realestate agent' />
             <p>ATLANTA</p>
-            </div>
-            <div className='area-holder'>
+            </motion.div>
+            <motion.div 
+           initial={{y: 900}}
+           animate={{y: lastYPos >= 2400 ? 0 : null}}
+           transition={{duration: 1.4}}      
+            
+            className='area-holder'>
             <img className='mid-agent' src={Area6} alt='realestate agent' />
             <p>ATLANTA</p>
-            </div>
+            </motion.div>
             </div>
           </Col>
         </Row>
@@ -113,7 +160,12 @@ const BottomSection = () => {
   <div className='mission'>
     <div className="mission-logo-container-two" >
      
-        <img className='mission-logo' src={Mission} alt='mission logo' />
+        <motion.img 
+        initial={{x: -900}}
+           animate={{x: lastYPos >= 3200 ? 0 : null}}
+           transition={{duration: 1}}  
+      
+        className='mission-logo' src={Mission} alt='mission logo' />
      
     </div>
   </div>
