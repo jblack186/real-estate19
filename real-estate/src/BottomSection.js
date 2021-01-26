@@ -59,7 +59,7 @@ const BottomSection = () => {
             className='area-holder'>
               
             <img className='mid-agent' src={Area2} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>SAVANAH</p>
             </motion.div>
             </div>
           </Col>
@@ -72,7 +72,7 @@ const BottomSection = () => {
               
               className='area-holder'>
             <img className='mid-agent' src={Area3} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>MACON</p>
             </motion.div>
             <motion.div 
            initial={{y: 900}}
@@ -81,7 +81,7 @@ const BottomSection = () => {
             
             className='area-holder'>
             <img className='mid-agent' src={Area4} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>COVINGTON</p>
             </motion.div>
             </div>
           </Col>
@@ -94,7 +94,7 @@ const BottomSection = () => {
               
               className='area-holder'>
             <img className='mid-agent' src={Area5} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>CUMMING</p>
             </motion.div>
             <motion.div 
            initial={{y: 900}}
@@ -103,7 +103,7 @@ const BottomSection = () => {
             
             className='area-holder'>
             <img className='mid-agent' src={Area6} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>AUGUSTA</p>
             </motion.div>
             </div>
           </Col>
@@ -117,7 +117,7 @@ const BottomSection = () => {
     
     className='bottom-area-holder side'>
             <img className='mid-agent' src={Area7} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>ROSWELL</p>
     </motion.div>
       
     </Col>
@@ -129,7 +129,7 @@ const BottomSection = () => {
     
     className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area8} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>SUWANEE</p>
     </motion.div>
      
     </Col>
@@ -141,7 +141,7 @@ const BottomSection = () => {
       
       className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area9} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>SMYRNA</p>
     </motion.div>
 
     </Col>
@@ -153,7 +153,7 @@ const BottomSection = () => {
       
       className='bottom-area-holder mid'>
             <img className='mid-agent' src={Area10} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>AUSTELL</p>
     </motion.div>
 
     </Col>
@@ -165,7 +165,7 @@ const BottomSection = () => {
       
       className='bottom-area-holder side'>
             <img className='mid-agent' src={Area11} alt='realestate agent' />
-            <p>ATLANTA</p>
+            <p>JOHNS CREEK</p>
     </motion.div>
 
     </Col>
@@ -178,7 +178,7 @@ const BottomSection = () => {
   
  </div>
 
-  <p className='mission-text'>We are a full service Real Estate Team serving the Atlanta Metro area. We Specialize in Cobb, Paulding, Atlanta and surrounding areas. Buying, Selling, and Staging are just a few of our services.</p>
+  <p className='mission-text'>Our goal will always be to give our clients the best advice when searching and buying a home. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market.</p>
 
   <div className='mission-flex'>
   <img className='mission-background' src={MissionBack} alt='mission logo' />

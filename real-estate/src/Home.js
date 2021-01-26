@@ -33,7 +33,7 @@ const Home = () => {
 
       <img className='house' src={House} alt='house' />
       <div className='home-text'>
-        <h2>SAVANAH</h2>
+        <h2>GEORGIA</h2>
         <p>HUMBLE ABODES</p>
 
       </div>

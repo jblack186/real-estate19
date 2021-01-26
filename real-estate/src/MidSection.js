@@ -65,7 +65,7 @@ const MidSection = () => {
           animate={{opacity: lastYPos > 1500 ? 1: 0}}
           transition={{duration: 2}}
   
-  >In today’s real estate market, selling and buying a home requires advanced knowledge of online as well as traditional marketing platforms. Just having a real estate license and listing a home on the MLS is not enough – you want an agent who has their ear to the ground when it comes to market trends, a deep understanding of the
+  >Every member on our team is an expert. We happily server our clients with expedience and proffesionalism. We happily serve those in the Savanah Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market.
   </motion.p>
 
 </div>
@@ -108,9 +108,9 @@ const MidSection = () => {
       <img className='featured-logo' src={Featured} alt='featured log' />
      
       <p>
-      We are a full service Real Estate Team serving the Atlanta Metro area. We Specialize in Cobb, Paulding, Atlanta and surrounding areas. Buying, Selling, and Staging are just a few of our services.</p>
+      We happily serve those in the Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market. We happily serve those in the Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market.</p>
 <p>
-Our team of experts represents the best and brightest in the industry, and we’re always striving to lead the field in research, innovation, and consumer education. Today’s buyers and sellers need a trusted resource that can guide them through the complex world of real estate. With our extensive knowledge and commitment to providing only the best and most timely information to our clients, we are your go-to source for real estate industry insight and advice.</p>
+We are seeking to clients who are ambitious about there next purchase. If your looking for a smooth process than give us a call, we would love to work for you in getting that house you deserve. We are seeking to clients who are ambitious about there next purchase. </p>
 <Button size="lg" variant="outline-dark">VIEW MORE</Button>
     </Col>
     <Col className='columns' lg={6}>

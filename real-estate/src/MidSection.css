@@ -13,9 +13,9 @@
 .top-midSection-container {
   height: 700px;
   width: 100%;
-  background-size: cover;
-  /* background: url('./images/wall.jpg'); */
-  background-repeat: no-repeat;
+  background-size: contain;
+  background: url('./images/wood.png');
+  filter: grayscale(70%);
   /* background-position: center center; */
   display: flex;
   justify-content: center;
