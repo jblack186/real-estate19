@@ -18,6 +18,7 @@
     "bootstrap": "^4.6.0",
     "framer-motion": "^3.2.2-rc.1",
     "mdbreact": "^5.0.1",
+    "netlify-cli": "^3.4.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
