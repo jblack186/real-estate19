@@ -10,6 +10,8 @@
 
 }
 
+
+
 @media only screen and (max-width: 900px) {
   .nav-container {
     background: #292929;
@@ -141,9 +143,18 @@
 .nav-container-slide ul li{
   list-style: none;
   font-size: 1rem;
-  color: black;
+  color: #1c1b3f;
   cursor: pointer;
+  font-weight: 400;
+  transition: padding-bottom .5s;
+
 }
+
+.nav-container-slide ul li:hover{
+  padding-bottom: 7px;
+  border-bottom: .5px solid #1c1b3f;
+}
+
 
 .logoTwo img {
   width: 150px;

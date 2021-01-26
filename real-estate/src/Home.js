@@ -3,11 +3,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faTwitter, faFacebookF, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
 import House from './images/house.jpg';
+import Who from './Who';
+import MidSection from './MidSection';
+import BottomSection from './BottomSection';
+import Footer from './Footer';
+import NavBar from './NavBar';
 
 const Home = () => {
   
 
   return (
+    <div>
+
     <div className='home-container'>
             <div className='side-bar'>
         <div className='line'></div>
@@ -49,7 +56,12 @@ const Home = () => {
         </div>
       </div>
       </div>
+
     </div>
+          <Who />
+          <MidSection />
+          <BottomSection />
+          </div>
   )
 }
 

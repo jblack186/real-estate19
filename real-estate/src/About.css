@@ -1,0 +1,42 @@
+.about-container {
+  min-height: 100vh;
+  background-color: black;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  min-height: 220%;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-content p{
+  padding-bottom: 20px;
+
+}
+
+.construction {
+  padding-top: 20px;
+}
+
+.who-piece h2 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+
+}

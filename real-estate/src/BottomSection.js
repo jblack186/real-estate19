@@ -15,7 +15,6 @@ import Area11 from './images/area11.jpg';
 import Mission from './images/mission.png';
 import MissionBack from './images/mission-back2.png';
 import { motion } from "framer-motion"
-
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
 
 const BottomSection = () => {
