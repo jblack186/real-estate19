@@ -13,8 +13,8 @@
 .top-midSection-container {
   height: 700px;
   width: 100%;
-  object-fit: cover;
-  background: url('./images/wall.jpg');
+  background-size: cover;
+  /* background: url('./images/wall.jpg'); */
   background-repeat: no-repeat;
   /* background-position: center center; */
   display: flex;
