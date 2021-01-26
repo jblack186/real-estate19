@@ -39,7 +39,7 @@ const Navbar = () => {
         <FontAwesomeIcon icon={faEnvelope} />
 
       </div>
-      <div className='menu-icon'>
+      <div id='menu-icon'>
         <FontAwesomeIcon style={{color: 'white', fontSize: '1.5rem'}} icon={faEllipsisH} />
         <p style={{color:'white'}}>MENU</p>
       </div>
