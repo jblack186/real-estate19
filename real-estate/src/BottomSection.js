@@ -178,7 +178,7 @@ const BottomSection = () => {
   
  </div>
 
-  <p className='mission-text'>We are a full service Real Estate Team serving the Atlanta Metro area. We Specialize in Cobb, Paulding, Atlanta and surrounding areas. Buying, Selling, and Staging are just a few of our services.</p>
+  <p className='mission-text'>Our goal will always be to give our clients the best advice when searching and buying a home. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market.</p>
 
   <div className='mission-flex'>
   <img className='mission-background' src={MissionBack} alt='mission logo' />

@@ -9,8 +9,8 @@ const Carousels = () => {
 
   return (
         <Carousel interval={5000} infiniteLoop={true} showStatus={false} showArrows={false} showIndicators={false} showThumbs={false} autoPlay autoPlay>
-        <p>Brandon’s commitment, professionalism, knowledge, and loyalty has surpassed all of my expectations. He builds personal relationships with all of his clients and keeps their wants and needs an upmost priority. His honesty and persistence is what I appreciate the most, as you can put 100% of your trust in him as a realtor.</p>
-        <p>Their team helped my husband and I get our dream house. The team was very knowedgable and responding to all my needs in a time sensitive manner.</p>
+        <p>I was amazed at the ease of the process. I always dreaded buying a house because of the complex steps involved from searching to closing. Their team made it easy for me to understand and held my hand during the process. If your looking for a real estate agent you can count on then look know further than Adobetilde.</p>
+        <p>Their team helped my husband and I get our dream house. The team was very knowedgable and responding to all my needs in a time sensitive manner. I honestly have no regrets in working with this company. Thank you to everyone who helped my family and I during this process.</p>
 
         </Carousel>
   )
