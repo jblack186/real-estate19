@@ -108,7 +108,7 @@ const MidSection = () => {
       <img className='featured-logo' src={Featured} alt='featured log' />
      
       <p>
-      We happily serve those in the Savanah Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market. We happily serve those in the Savanah Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market.</p>
+      We happily serve those in the Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market. We happily serve those in the Georgia area. We enjoy seeing you buy the house you've always wanted. We are experts in all areas of the housing market.</p>
 <p>
 We are seeking to clients who are ambitious about there next purchase. If your looking for a smooth process than give us a call, we would love to work for you in getting that house you deserve. We are seeking to clients who are ambitious about there next purchase. </p>
 <Button size="lg" variant="outline-dark">VIEW MORE</Button>
