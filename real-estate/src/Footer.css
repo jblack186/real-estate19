@@ -18,6 +18,15 @@
 
 }
 
+@media only screen and (max-width: 968px) {
+  .footer-logos  {
+    width: 70%;
+  }
+}
+
+
+
+
 .footer-logos img{
   width: 200px;
   border-bottom: 2px solid white;
@@ -25,10 +34,25 @@
   object-fit: contain;
 }
 
+@media only screen and (max-width: 968px) {
+  .footer-logos img {
+    width: 100px;
+  }
+}
+
+
+
 .footer-list {
   width: 80%;
   margin: 0 auto
 }
+
+@media only screen and (max-width: 968px) {
+  .footer-list {
+    display: none;
+  }
+}
+
 
 .footer-list ul {
   display: flex;
