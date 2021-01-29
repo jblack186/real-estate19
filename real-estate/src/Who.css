@@ -74,7 +74,9 @@
 
 
 .who-piece img {
-  height: 50px;
+  height: 40px;
+  padding-right: 5px;
+  object-fit: contain;
 }
 
 .who-piece h3 {
