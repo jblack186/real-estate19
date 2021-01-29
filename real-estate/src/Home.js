@@ -20,6 +20,8 @@ const Home = () => {
     <div>
 
     <div className='home-container'>
+      <div className='home-text'><h2>GEORGIA</h2>
+        <p>HUMBLE ABODES</p></div>
             <div className='side-bar'>
         <div className='line'></div>
         <div className='faIcons'>
@@ -34,18 +36,15 @@ const Home = () => {
           </p>        
       </div>
       </div>
-      <Carousel interval={3000} infiniteLoop={true} showArrows={false} showStatus={false} showThumbs={false} autoPlay>
-      
-      <img className='house' src={House} alt='house' />
-      <img className='house' src={House2} alt='house2' />
-      <img className='house' src={House3} alt='house3' />
+
+      <Carousel interval={3000} infiniteLoop={true} show showIndicators={false} showArrows={false} showStatus={false} showThumbs={false} autoPlay>
+      <img className='house' src={House} alt='house' />      
+        <img className='house' src={House2} alt='house2' />
+        <img className='house' src={House3} alt='house3' />
+    
 
       </Carousel>
-      <div className='home-text'>
-        <h2>GEORGIA</h2>
-        <p>HUMBLE ABODES</p>
-
-      </div>
+      
       <div className='top-bottom-bar'>
         <div className='top-bottom-bar-flex'>
         <div className='bottom-bar-text'>
