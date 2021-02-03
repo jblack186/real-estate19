@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faEllipsisH, faTimes } from '@fortawesome/free-solid-svg-icons'
 import logo from './images/logo.png';
@@ -23,6 +23,7 @@ const Navbar = () => {
 const openOrClose = () => {
   setOpen(!open)
   
+
 }
 
 const close = () => {
@@ -43,7 +44,7 @@ const close = () => {
       <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/'><li>
           HOME
         </li></Link>
-        <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/about'><li>
+        <Link use style={{ listStyle: 'none', textDecoration: 'none'}} to='/about'><li>
         ABOUT US
         </li></Link>
         <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/contact'><li>
@@ -78,7 +79,7 @@ const close = () => {
         <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/'><li>
           HOME
         </li></Link>
-        <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/about'><li>
+        <Link scrollY={true} style={{ listStyle: 'none', textDecoration: 'none'}} to='/about'><li>
         ABOUT US
         </li></Link>
         <Link style={{ listStyle: 'none', textDecoration: 'none'}} to='/contact'><li>

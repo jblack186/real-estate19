@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faTwitter, faFacebookF, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
@@ -14,6 +14,12 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
+  
   
 
   return (

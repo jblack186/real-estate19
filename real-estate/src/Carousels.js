@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Carousel.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 
 const Carousels = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
+
 
   return (
         <Carousel interval={5000} infiniteLoop={true} showStatus={false} showArrows={false} showIndicators={false} showThumbs={false} autoPlay autoPlay>
