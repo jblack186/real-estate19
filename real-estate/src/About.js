@@ -8,6 +8,14 @@ import { motion } from "framer-motion"
 import Construction from './images/construction.jpg';
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
+  
+
+
   return (
     <section className='about-container'>
       <div className='about-content'>
