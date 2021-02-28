@@ -32,9 +32,9 @@
 
 .who-container h3 {
   padding-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 3em;
   font-weight: 400;
-  color: #292929
+  letter-spacing: 5px;
   
 }
 
@@ -42,7 +42,7 @@
 
  .who-container p {
   padding-bottom: 20px;
-  font-weight: bold;
+  line-height: 29.1px;
 
 }
 
