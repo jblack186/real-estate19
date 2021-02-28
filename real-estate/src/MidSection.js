@@ -92,7 +92,6 @@ const MidSection = () => {
           <div className='carousel-container'>
           <Carousels />
           </div>
-        <Button size="lg" variant="outline-primary">READ MORE</Button>
       </motion.div>
 
       <motion.div 
@@ -113,8 +112,8 @@ const MidSection = () => {
 We are seeking to clients who are ambitious about there next purchase. If your looking for a smooth process than give us a call, we would love to work for you in getting that house you deserve. We are seeking to clients who are ambitious about there next purchase. </p>
 <Button size="lg" variant="outline-dark">VIEW MORE</Button>
     </Col>
-    <Col className='columns' lg={6}>
-      <img className='agent' src={House2} alt='realestate agent' />
+    <Col className='columns' lg={6} style={{height: '100%'}} >
+      <img className='featured-house' src={House2} alt='realestate agent' />
     </Col>
   </Row>
 </Container>
